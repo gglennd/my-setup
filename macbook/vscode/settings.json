@@ -1,0 +1,46 @@
+{
+    "breadcrumbs.enabled": false,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "none",
+    // "editor.snippetSuggestions": "top",
+    // "editor.suggestSelection": "first",
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.autohide": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "workbench.statusBar.visible": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "javascript.autoClosingTags": true,
+        "javascript.preferences.quoteStyle": "single",
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "json.schemas": []
+}
