@@ -10,8 +10,9 @@
     "ms-vscode.vscode-typescript-next",
     "YoavBls.pretty-ts-errors",
     "ms-azuretools.vscode-docker",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
     // "Vue.volar",
     // "dsznajder.es7-react-js-snippets"
+    "saoudrizwan.claude-dev"
   ]
 }

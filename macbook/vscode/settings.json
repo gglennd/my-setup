@@ -1,8 +1,8 @@
 {
     "terminal.explorerKind": "external",
-    "[liquid]": {
-        "editor.defaultFormatter": "Shopify.theme-check-vscode",
-    },
+    // "[liquid]": {
+    //     "editor.defaultFormatter": "Shopify.theme-check-vscode",
+    // },
     "[typescript]": {
         // "editor.defaultFormatter": "vscode.typescript-language-features"
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -17,7 +17,8 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        // "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
@@ -37,7 +38,7 @@
         "liquid": "html"
     },
     "editor.formatOnSave": true,
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, 'FiraCode Nerd Font Mono'",
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, 'CommitMono Nerd Font Mono'",
     "editor.tabSize": 2,
     "editor.linkedEditing": true,
     "workbench.sideBar.location": "left",
@@ -59,8 +60,8 @@
     "editor.minimap.renderCharacters": false,
     "editor.minimap.scale": 2,
     "editor.minimap.autohide": true,
-    "workbench.colorTheme": "Default Dark+",
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
     "git.openRepositoryInParentFolders": "never",
-    "editor.tabCompletion": "on"
+    "editor.tabCompletion": "on",
+    "workbench.tree.enableStickyScroll": false
 }
