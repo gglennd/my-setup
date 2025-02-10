@@ -22,7 +22,7 @@ export PATH=$ANDROID_HOME/platform-tools:$PATH
 3. Download Required System Images
 
 ```bash
-sdkmanager "platform-tools" "emulator" "platforms;android-34" "system-images;android-34;google_apis_playstore;arm64-v8a
+sdkmanager "platform-tools" "emulator" "platforms;android-34" "system-images;android-34;google_apis_playstore;arm64-v8a"
 ```
 
 4. Create an AVD
@@ -55,3 +55,25 @@ avdmanager delete avd -n Pixel_6_Pro_API_34_PlayStore
 ```
 
 [complete tutorial](https://dev.to/mochafreddo/setting-up-and-managing-android-emulators-on-macos-with-homebrew-3fg0)
+
+## Connect to Android Device
+
+1. Go to your device Settings > About Phone
+2. Tap 7x Device Version
+3. Go to Developer options > 'Enable USB debugging / Wireless debugging'
+4. Wireless debugging > Pair device with pairing code, then
+
+```bash
+adb pair host:port [pairing code]
+```
+
+## Mirror Device
+
+```bash
+
+# Install
+brew install scrcpy
+
+# Run
+scrcpy
+```
