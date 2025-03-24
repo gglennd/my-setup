@@ -1,67 +1,80 @@
 {
-    "terminal.explorerKind": "external",
-    // "[liquid]": {
-    //     "editor.defaultFormatter": "Shopify.theme-check-vscode",
-    // },
-    "[typescript]": {
-        // "editor.defaultFormatter": "vscode.typescript-language-features"
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[javascript]": {
-        // "editor.defaultFormatter": "vscode.typescript-language-features"
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[typescriptreact]": {
-        // "editor.defaultFormatter": "vscode.typescript-language-features"
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[vue]": {
-        // "editor.defaultFormatter": "Vue.volar"
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "auto-rename-tag.activationOnLanguage": [
-        "*"
-    ],
-    "emmet.includeLanguages": {
-        "liquid": "html"
-    },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.sendKeybindingsToShell": true,
+
+  "[javascript]": {
     "editor.formatOnSave": true,
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, 'CommitMono Nerd Font Mono'",
-    "editor.tabSize": 2,
-    "editor.linkedEditing": true,
-    "workbench.sideBar.location": "left",
-    "breadcrumbs.enabled": true,
-    "workbench.activityBar.location": "default",
-    "workbench.editor.tabActionCloseVisibility": true,
-    "explorer.compactFolders": false,
-    "workbench.layoutControl.enabled": false,
-    "editor.cursorBlinking": "solid",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "files.autoSave": "onWindowChange",
-    "window.commandCenter": false,
-    "workbench.editor.showTabs": "multiple",
-    "editor.scrollbar.horizontal": "hidden",
-    "explorer.confirmDelete": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "terminal.integrated.sendKeybindingsToShell": true,
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.scale": 2,
-    "editor.minimap.autohide": true,
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
-    "git.openRepositoryInParentFolders": "never",
-    "editor.tabCompletion": "on",
-    "workbench.tree.enableStickyScroll": false
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[liquid]": {
+    "editor.defaultFormatter": "Shopify.theme-check-vscode",
+    "editor.formatOnSave": true
+  },
+  "themeCheck.checkOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "emmet.includeLanguages": {
+    "liquid": "html"
+  },
+
+  "editor.formatOnSave": false,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, 'CommitMono Nerd Font Mono'",
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.scale": 1,
+  "editor.minimap.autohide": true,
+  "editor.tabCompletion": "on",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  "breadcrumbs.enabled": true,
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.location": "default",
+  "workbench.editor.tabActionCloseVisibility": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.editor.showTabs": "multiple",
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+
+  "files.autoSave": "onWindowChange",
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "git.openRepositoryInParentFolders": "never",
+  "git.autofetch": true,
+
+  "window.commandCenter": false,
+  "chat.commandCenter.enabled": false
 }
