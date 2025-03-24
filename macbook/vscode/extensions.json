@@ -13,6 +13,7 @@
     "bradlc.vscode-tailwindcss",
     // "Vue.volar",
     // "dsznajder.es7-react-js-snippets"
-    "saoudrizwan.claude-dev"
+    "saoudrizwan.claude-dev",
+    "formulahendry.auto-rename-tag"
   ]
 }
